@@ -13,7 +13,7 @@ Next.js application with Socket.io for real-time communication.
 First, clone the repository:
 
 ```bash
-git clone <https://github.com/rocolusso/dzencode-test-challange>
+git clone https://github.com/rocolusso/dzencode-test-challange.git
 cd test-socket
 ```
 
