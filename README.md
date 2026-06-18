@@ -1,4 +1,4 @@
-# test-socket
+# Dzencode test challange
 
 Next.js application with Socket.io for real-time communication.
 
