@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.sidebar-link span {
+  transition: color 0.2s ease;
+}
+
+.sidebar-link:hover span {
+  color: #198754 !important;
+}
