@@ -14,7 +14,7 @@ First, clone the repository:
 
 ```bash
 git clone https://github.com/rocolusso/dzencode-test-challange.git
-cd test-socket
+cd dzencode-test-challange
 ```
 
 ### Local setup
