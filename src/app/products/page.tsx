@@ -1,39 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import {Price , Product, Order, Guarantee} from './../../../lib/utils'
 
-
-interface Price {
-    value: number;
-    symbol: string;
-    isDefault: number;
-}
-
-interface Guarantee {
-    start: string;
-    end: string;
-}
-
-interface Product {
-    id: number;
-    serialNumber: number;
-    isNew: number;
-    photo: string;
-    title: string;
-    type: string;
-    specification: string;
-    guarantee: Guarantee;
-    price: Price[];
-    order: number;
-    date: string;
-}
-
-interface Order {
-    id: number;
-    title: string;
-    date: string;
-    description: string;
-}
 
 function formatDate(dateStr: string): string {
     const months = ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'];

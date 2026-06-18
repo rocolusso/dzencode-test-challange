@@ -1,32 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-interface Price {
-    value: number;
-    symbol: string;
-    isDefault: number;
-}
-
-interface Product {
-    id: number;
-    serialNumber: number;
-    isNew: number;
-    photo: string;
-    title: string;
-    type: string;
-    specification: string;
-    guarantee: { start: string; end: string };
-    price: Price[];
-    order: number;
-    date: string;
-}
-
-interface Order {
-    id: number;
-    title: string;
-    date: string;
-    description: string;
-}
+import {Price , Product, Order} from './../../lib/utils'
 
 export default function Incomes() {
     const [selectedIncome, setSelectedIncome] = useState<number | null>(null);
